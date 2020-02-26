@@ -81,12 +81,7 @@ public class Estudiante {
     }
     public void agregarProgramaAcademico(ProgramaAcademico pa){
         this.programaAcademico = pa;
-        
-        
         System.out.println(this.programaAcademico.getNombre() + " " + this.programaAcademico.getId());
-        /*
-        this.programaAcademico.setNombre(pa.getNombre());
-        this.programaAcademico.setId(pa.getId());*/
     }
     
     @Override
